@@ -7,7 +7,7 @@ function App() {
   return (
     
     <Routes>
-      <Route path="/" element={<HomePages />} />
+      <Route path="/video-chat-app" element={<HomePages />} />
       <Route path="/room/:roomId" element={<RoomPage />} />
     </Routes>
     
