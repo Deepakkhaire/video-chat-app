@@ -15,11 +15,11 @@ const RoomPage = () =>{
             sharedLinks : [
                 {
                     name: 'Copy Link',
-                    url: 'http:localhost:3000/room/${roomId}'
+                    url: `http:localhost:3000/room/${roomId}`
                 }
             ],
             scenario :{
-                mode: ZegoUIKitPrebuilt.OneONoneCall
+                mode: ZegoUIKitPrebuilt.GroupCall
             },
             showScreenSharingButton : true,
         })

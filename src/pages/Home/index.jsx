@@ -1,6 +1,6 @@
 import React, {useState , useCallback} from "react";
 import {useNavigate} from 'react-router-dom'
-
+import './home.css'
 const HomePages = () => {
 
 const [value, setValue] = useState();
@@ -13,7 +13,8 @@ const [value, setValue] = useState();
         <div>
             <input value={value}
             onChange={(e) => setValue(e.target.value)}
-            type="text" placeholder="Enter Room Code" />
+            type="text" placeholder="Enter Room Code"
+             />
             <button onClick={handleJoinRoom}>Join</button>
         </div>
     )
